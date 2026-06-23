@@ -36,7 +36,7 @@ Once the repository has been published, install the development version directly
 
 ```r
 install.packages("remotes")
-remotes::install_github("VOTRE_COMPTE_GITHUB/scriptvault")
+remotes::install_github("QuentinLamboley/scriptvault")
 library(scriptvault)
 ```
 
