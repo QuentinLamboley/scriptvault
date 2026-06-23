@@ -1,0 +1,9 @@
+SCRIPTVAULT — VERSION GITHUB v0.1.0
+
+1) Décompressez ce dossier.
+2) Créez un dépôt GitHub appelé « scriptvault ».
+3) Publiez le CONTENU de ce dossier (pas le ZIP).
+4) Lisez PUBLISH_TO_GITHUB_FR.md : il contient les deux méthodes complètes.
+5) Après publication, ouvrez l'onglet Actions sur GitHub : les tests automatiques doivent démarrer.
+
+Le package reste totalement local-first pour ses utilisateurs : GitHub sert seulement à distribuer le code source.

@@ -1,0 +1,10 @@
+citHeader("To cite ScriptVault in publications, use:")
+
+citEntry(
+  entry = "Software",
+  title = "ScriptVault: local-first versioning for reproducible research scripts",
+  author = personList(person("Quentin", "Lably")),
+  year = "2026",
+  note = "R package version 0.1.0",
+  textVersion = "Lably, Q. (2026). ScriptVault: local-first versioning for reproducible research scripts (R package version 0.1.0)."
+)

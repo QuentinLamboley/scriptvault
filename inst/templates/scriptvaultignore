@@ -1,0 +1,5 @@
+# One regular expression per line. Empty lines and # comments are ignored.
+# Examples:
+# ^data/raw/
+# \\.csv$
+# ^outputs/

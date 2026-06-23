@@ -1,0 +1,19 @@
+Name: Snapshot active script
+Description: Create a local ScriptVault snapshot of the active RStudio document.
+Binding: sv_addin_snapshot_active
+Interactive: true
+
+Name: Save and snapshot active script
+Description: Save the active RStudio document, then archive it in ScriptVault.
+Binding: sv_addin_save_and_snapshot
+Interactive: true
+
+Name: Start ScriptVault watcher
+Description: Start the local automatic watcher for the current project.
+Binding: sv_addin_start_watcher
+Interactive: true
+
+Name: Stop ScriptVault watcher
+Description: Stop the local automatic watcher for the current project.
+Binding: sv_addin_stop_watcher
+Interactive: true

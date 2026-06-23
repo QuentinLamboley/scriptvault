@@ -1,0 +1,31 @@
+Package: scriptvault
+Type: Package
+Title: Local-First Script Versioning for Reproducible Research
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Quentin", family = "Lably", email = "q.lamboley78@gmail.com", role = c("aut", "cre"))
+    )
+Description: A local-first versioning vault for research scripts and lightweight
+    project assets. ScriptVault creates content-addressed archives, local branches,
+    auditable history, safe restores, reproducibility records and optional RStudio
+    automation without requiring Git, GitHub, or a remote service.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Imports:
+    DBI,
+    digest,
+    filelock,
+    fs,
+    jsonlite,
+    RSQLite
+Suggests:
+    later,
+    rstudioapi,
+    testthat (>= 3.0.0),
+    withr,
+    roxygen2
+Config/testthat/edition: 3
